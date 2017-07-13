@@ -1,6 +1,6 @@
 {
   "name": "on-render2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "emit events when express start render and finish render.",
   "main": "index.js",
   "scripts": {
