@@ -1,4 +1,4 @@
-# on-render2
+# on-rendered
 
 Emit events when express start render and finish render.
 
@@ -9,14 +9,14 @@ This is a [Node.js](https://nodejs.org/en/) module available through the
 [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```sh
-$ npm install on-render2 -S
+$ npm install on-rendered -S
 ```
 
 ## API
 
 
 ```js
-var onRender = require('on-render2')
+var onRender = require('on-rendered')
 ```
 
 ### onHeaders()
@@ -30,7 +30,7 @@ event `beforeRender` add to template is ready to render.
 var bodyParser = require('body-parser')
 var cookieParser = require('cookie-parser')
 var express = require('express')
-var onRender = require('on-render2')
+var onRender = require('on-rendered')
 
 // example of using this top-level; note the use of haltOnTimedout
 // after every middleware; it will stop the request flow on a timeout
