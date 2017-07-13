@@ -26,7 +26,7 @@ function _onRender(res) {
 
 function onRender() {
   return function(req, res, next) {
-    onRender(res);
+    _onRender(res);
     next();
   }
 }
