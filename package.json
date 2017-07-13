@@ -1,0 +1,24 @@
+{
+  "name": "on-render2",
+  "version": "1.0.1",
+  "description": "emit events when express start render and finish render.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htoooth/on-render.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "render"
+  ],
+  "author": "htoooth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/htoooth/on-render/issues"
+  },
+  "homepage": "https://github.com/htoooth/on-render#readme"
+}
