@@ -16,10 +16,12 @@ $ npm install on-rendered -S
 
 
 ```js
-var onRender = require('on-rendered')
-```
 
-### onHeaders()
+var onRender = require('on-rendered')
+
+app.use(onRender());
+
+```
 
 This will add the event `render` to fire when template are rendered. And a
 event `beforeRender` add to template is ready to render.
